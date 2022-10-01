@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: #6A5E8A;
+}
+
+header{
+    height: 100px;
+    background-color: #8661E9;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+}
+
+ul{
+    display: flex;
+    width: 30em;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.section1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: calc(100vh - 150px);
+    background-color:  #958FA6;
+    color: white;
+}
+
+.perfil{
+    border-radius: 500px;
+    height:150px;
+}
+
+.cajacentral{
+    margin-top: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 50%;
+}
+
+.cajapresentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #A29AB8;
+    padding: 20px;
+}
+
+.cajaperfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #B8B8BA;
+}
+
+.parrafo1{
+    margin-top: 10%;
+    color: black;
+}
+
+.section2 {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    background-color: #978BB9;
+}
+
+.aptitudes{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    background-color: #9CA0B9;
+}
+
+.section3{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    background-color: #6A5E8A;   
+}
+
+footer{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background-color: #8661E9;
+    color: white;
+    align-items: center;
+}
