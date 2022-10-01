@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="img/icono.ico">
     <title>Mi Portfolio</title>
@@ -11,18 +14,23 @@
 </head>
 <body>
     <header>
-        <nav class="menu">
-            <ul>
-                <li><a href="">Sobre Mi</a></li>
-                <li><a href="">Aptitudes</a></li>
-                <li><a href="">Mis Proyectos</a></li>
-                <li><a href="">Contacto</a></li>
+        <nav class="nav">
+            <a href="#" class="logo">
+                <img height="40" width="40" src="img/perfil.png" alt="icono">
+                <div>
+                    AN
+                </div>
+            </a>
+            <ul class="menu">
+                <li><a href="#section1">Sobre Mi</a></li>
+                <li><a href="#section2">Habilidades</a></li>
+                <li><a href="#section3">Mis Proyectos</a></li>
+                <li><a href="#section4">Contacto</a></li>
             </ul>
         </nav>
-
     </header>
 
-    <section class="section1">
+    <section class="section1" id="section1">
         <div class="cajacentral">
             <div class="cajaperfil">
                 <img class="perfil" src="img/perfil.png" alt="imgperfil">
@@ -32,7 +40,7 @@
                 <div>
                     <h1> SOBRE MI</h1>
                     <p class="parrafo1"> 
-                    Mi nombre es Andrea y soy estudiante del segundo año de la
+                    Mi nombre es Andrea Nuñez y soy estudiante del segundo año de la
                     tecnicatura universitaria en programación de la 
                     Universidad Tecnólogica Nacional - Facultad Regional General Pacheco.
                     </p>
@@ -41,23 +49,23 @@
         </div>      
     </section>
 
-    <section class="section2">
-        <h1> APTITUDES </h1>
+    <section class="section2" id="section2">
+        <h1> HABILIDADES </h1>
         <div>
-            <img width="70px" src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="c++logo">
-            <img width="70px" src="https://styles.redditmedia.com/t5_2sy5e/styles/communityIcon_dq22z5k4ykb71.png?width=256&s=f069ffd3c2e5d21c63122eb3f3f4860b6e6a480e" alt="sfmllogo">
-            <img width="70px" src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="c#logo">
-            <img width="70px" src="img/netlogo.png" alt="netlogo">
+            <img class="margenimg" src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="c++logo">
+            <img class="margenimg" src="https://styles.redditmedia.com/t5_2sy5e/styles/communityIcon_dq22z5k4ykb71.png?width=256&s=f069ffd3c2e5d21c63122eb3f3f4860b6e6a480e" alt="sfmllogo">
+            <img class="margenimg" src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="c#logo">
+            <img class="margenimg" src="img/netlogo.png" alt="netlogo">
         </div>
         <div>
-            <img width="70px" src="img/sqllogo.png" alt="sqllogo">
-            <img width="70px" src="https://cdn-icons-png.flaticon.com/512/919/919827.png" alt="htmllogo">
-            <img width="70px" src="https://cdn-icons-png.flaticon.com/512/919/919826.png" alt="csslogo">
+            <img class="margenimg" src="img/sqllogo.png" alt="sqllogo">
+            <img class="margenimg" src="https://cdn-icons-png.flaticon.com/512/919/919827.png" alt="htmllogo">
+            <img class="margenimg" src="https://cdn-icons-png.flaticon.com/512/919/919826.png" alt="csslogo">
         </div>
 
     </section>
 
-    <section class="section3">
+    <section class="section3" id="section3">
         <h1> MIS PROYECTOS </h1>
         <div>
             <div>
@@ -89,12 +97,12 @@
 
     </section>
     
-    <footer>
-        <h3> ANDREA NUÑEZ </h3>
+    <footer id="section4">
+        <h2> ANDREA NUÑEZ </h2>
         <div>
-            <img width="50px" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkein">
-            <img width="50px" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github">
-            <img width="50px" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="gmail">
+            <img class="imgfooter" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkein">
+            <img class="imgfooter" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github">
+            <img class="imgfooter" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="gmail">
         </div>
     </footer>
 </body>
