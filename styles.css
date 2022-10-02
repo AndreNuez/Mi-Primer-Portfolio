@@ -1,24 +1,25 @@
-body{
+body {
     margin: 0;
     font-family: 'Public Sans', sans-serif;
     color: white;
     background-color: #6A5E8A;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
-section[id]{
+
+section[id] {
     scroll-margin-top: 100px;
 }
 
-header{
+header {
     position: fixed;
     width: 100%;
     background-color: #8661E9;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -27,7 +28,7 @@ header{
 
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     font-size: 30px;
@@ -35,23 +36,23 @@ header{
 
 }
 
-.menu{
+.menu {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.menu li{
+.menu li {
     padding: 0 15px;
 }
 
-.menu a{
+.menu a {
     font-size: 18px;
     line-height: 50px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
     font-weight: 700;
@@ -61,22 +62,22 @@ nav ul li:hover {
     background: #958FA6;
 }
 
-.section1{
+.section1 {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: calc(100vh);
-    background-color:  #958FA6;
+    background-color: #958FA6;
     color: white;
 }
 
-.perfil{
+.perfil {
     border-radius: 500px;
-    height:150px;
+    height: 150px;
 }
 
-.cajacentral{
+.cajacentral {
     margin-top: 12%;
     width: 50%;
     display: flex;
@@ -86,7 +87,7 @@ nav ul li:hover {
     height: 55%;
 }
 
-.cajapresentacion{
+.cajapresentacion {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +96,7 @@ nav ul li:hover {
     padding: 20px;
 }
 
-.cajaperfil{
+.cajaperfil {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +104,7 @@ nav ul li:hover {
     background-color: #B8B8BA;
 }
 
-.parrafo1{
+.parrafo1 {
     margin-top: 10%;
     color: black;
 }
@@ -114,38 +115,109 @@ nav ul li:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    color: white;
+    text-align: center;
     background-color: #978BB9;
 }
 
-.section3{
-    text-align: center;
-    width: 100%;
-    color: white;
-    font-size: 15px;
-    background-color: #6A5E8A;   
+.parrafohab{
+    padding-bottom: 50px;
 }
 
-.margenimg{
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.margenimg {
     margin-left: 20px;
-    margin-bottom: 30px;
     width: 70px;
 }
 
+.section3 {
+    width: 100%;
+    height: calc(110vh);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.proyectos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 15px;
+    background-color: #6A5E8A;
+    padding: 50px;
+}
+
+.contenedor {
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cajaproyecto {
+    width: 300px;
+    background-color: #A29AB8;
+    border-radius: 20px;
+}
+
+.imagenproyecto {
+    width: 100%;
+    height: 150px;
+    background-image: url(img/revenge.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.imagenproyecto2 {
+    width: 100%;
+    height: 150px;
+    background-image: url(img/carpinchos.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.imagenproyecto3 {
+    width: 100%;
+    height: 150px;
+    background-image: url(img/app.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.tituloproyecto h3 {
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.parrafoproyecto {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.link {
+    padding: 20px;
+    font-size: 20px;
+}
+
 footer{
-    margin: 0;
+    width: 100%;
+    background-color: #8661E9;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: #8661E9;
-    color: white;
-    
+    text-align: center;
+    padding-top: 10px;
 }
 
-.imgfooter{
-    margin-left: 20px;
-    margin-bottom: 30px;
+.imgfooter {
+    margin: 1em;
     width: 50px;
 }
